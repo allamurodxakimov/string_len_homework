@@ -8,4 +8,11 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    a=len(s)
+    if a%2==1:
+        return s[(a)//2]
+    else :
+        return s[a//2-1:a//2+1]
+print(main("abcdfg"))
+print(main("abcdf"))
+print(main("cool"))
