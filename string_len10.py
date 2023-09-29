@@ -8,4 +8,11 @@ def main(s):
     Returns:
         bool: answer
     """
-    return
+    k = len(s)
+    if k ==3 :
+        if s[0]==s[2]:
+            return True
+        else:
+            return False
+print(main('sds'))
+print(main('sdw'))
